@@ -5,7 +5,7 @@ import java.util.Scanner;
  * The Class APlusB.
  * the class performs basic addition
  */
-public class APlusB {
+public class APlusB{
 
 	/**
 	 * Sum of two digits.
@@ -16,9 +16,9 @@ public class APlusB {
 	 */
 	static int sumOfTwoDigits(int firstNum, int secondNum)
 	{
-		return firstNum + secondNum ;
+		return firstNum + secondNum;
 	}
-
+	
 	/**
 	 * The main method.
 	 *
@@ -27,9 +27,9 @@ public class APlusB {
 	public static void main(String[] args)
 	{
 		Scanner scan = new Scanner(System.in);
-		int a = scan.nextInt();
-		int b = scan.nextInt();
+		int x = scan.nextInt();
+		int y = scan.nextInt();
 
-		System.out.println(sumOfTwoDigits(a, b));
+		System.out.println(sumOfTwoDigits(x,y));
 	}
 }
