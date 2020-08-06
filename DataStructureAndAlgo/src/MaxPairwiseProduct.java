@@ -17,13 +17,7 @@ public class MaxPairwiseProduct {
 
 	private static long maxProductFast(long[] numArray) {
 		long product = 0;
-		/*	for(int i=0;i<numArray.length;i++)
-		{
-			for(int j=i+1;j<numArray.length;j++)
-			{
-				product = Math.max(product, numArray[i]*numArray[j]);
-			}
-		} */
+		
 		int max_index1=-1;
 		for(int i=0;i<numArray.length;i++)
 		{
